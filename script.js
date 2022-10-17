@@ -9,9 +9,6 @@ btnOk[0].onclick = () => {
   if (inputValue === "") {
     alert("Informe os números do CEP para efeutar a consulta.")
   }
-  else if (inputValue < 8 || inputValue > 8) {
-    alert("O CEP precisa conter 8 números.")
-  }
   else {
     showInfo(inputValue)
   }  
